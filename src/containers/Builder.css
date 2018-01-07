@@ -1,0 +1,16 @@
+.anime {
+    color: orangered;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 43%;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 2px black;
+    font-size: 1.6em;
+}
+.anime_1 h1 {
+    color: #c9c9c9;
+    /*position: absolute;*/
+    padding: 10px 0 0 0;
+    margin: 0;
+}

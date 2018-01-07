@@ -1,0 +1,22 @@
+.Product {
+    height: 330px;
+    width: 400px;
+    margin: 50px 0 0 0;
+    /*background-color: #fff;*/
+    padding: 40px 0 0 0;
+}
+.Product span {
+    /*color: #5A7247;*/
+}
+@media all and (min-width: 500px) {
+.Product {
+height: 350px;
+    width: 450px;
+    margin: 50px auto 0 auto;
+    /*background-color: #fff;*/
+    padding: 40px 0 0 0;
+}
+.Product span {
+    /*color: #5A7247;*/
+}
+}

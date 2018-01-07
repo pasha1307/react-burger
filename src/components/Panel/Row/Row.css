@@ -1,0 +1,30 @@
+.Row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0;
+    justify-content: flex-end;
+    width: 320px;
+}
+
+.Row label {
+    text-align: left;
+    align-self: center;
+    width: 150px;
+}
+@media screen and (min-width: 500px) {
+    .Row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5px 0;
+        justify-content: flex-end;
+        width: 320px;
+    }
+
+    .Row label {
+       text-align: left;
+        align-self: center;
+        width: 150px;
+    }
+}

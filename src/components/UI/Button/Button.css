@@ -1,0 +1,44 @@
+.Button {
+    padding: 7px 22px;
+    font-size: 17px;
+    font-family: var(--pangolin);
+    background-color: inherit;
+    border: 1px solid var(--white);
+    outline: none;
+    letter-spacing: 2px;
+    color: inherit;
+    cursor: pointer;
+}
+.First {
+    color: inherit;
+}
+.Add {
+    background-color: var(--bg);
+}
+.Remove {
+  color: gainsboro;
+}
+.Button:hover {
+    background-color: rgba(0,0,0,.1);
+}
+.Button:disabled {
+    border-color: darkgray;
+    background-color: rgba(0,0,0,.1);
+    color: rgba(0,0,0,.2);
+    cursor: not-allowed;
+}
+.Cancel {
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    color: red;
+
+}
+.Continue {
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    color: #b56131;
+}

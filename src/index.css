@@ -1,0 +1,16 @@
+:root {
+  --bg: #5A7247;
+  --white: #FFFFFF;
+  --red: #B93A32;
+  --green:  #006E51;
+  --gold: #D8AE47;
+  --pangolin: 'Pangolin', serif;
+  --border: 1px solid var(--white);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--pangolin);
+  background-color: var(--bg);
+  color: var(--white);
+}

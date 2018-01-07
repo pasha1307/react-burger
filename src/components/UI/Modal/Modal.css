@@ -1,0 +1,29 @@
+.Modal {
+    position: fixed;
+    width: 98%;
+    margin-left: 1%;
+    top: 20%;
+    z-index: 99;
+    background-color: var(--white);
+    color: var(--green);
+    transition: transform 0.4s ease;
+}
+.Open {
+    transform: translateY(0);
+}
+.Close {
+    transform: translateY(-100vh);
+}
+
+@media screen and (min-width: 500px) {
+    .Modal {
+        position: fixed;
+        width: 50%;
+        margin-left: 25%;
+        top: 20%;
+        z-index: 99;
+        background-color: var(--white);
+        color: var(--green);
+        transition: transform 0.4s ease;
+    }
+}
